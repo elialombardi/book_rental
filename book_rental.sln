@@ -3,14 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65D46E7C-9E52-45DD-8497-C9ABB1BB347C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CCCC1BA0-A89E-4435-8BCC-009696886DBB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EBF9981-0F46-4F45-8E2B-8B751A58B168}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "book_rental", "src\book_rental\book_rental.xproj", "{0C136D9C-9B72-4150-8935-CD7223BE4B65}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "book_rental", "src\book_rental\book_rental.xproj", "{22BABA2C-27E6-455D-B492-D68742701DDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C136D9C-9B72-4150-8935-CD7223BE4B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C136D9C-9B72-4150-8935-CD7223BE4B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C136D9C-9B72-4150-8935-CD7223BE4B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C136D9C-9B72-4150-8935-CD7223BE4B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BABA2C-27E6-455D-B492-D68742701DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BABA2C-27E6-455D-B492-D68742701DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BABA2C-27E6-455D-B492-D68742701DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BABA2C-27E6-455D-B492-D68742701DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0C136D9C-9B72-4150-8935-CD7223BE4B65} = {65D46E7C-9E52-45DD-8497-C9ABB1BB347C}
+		{22BABA2C-27E6-455D-B492-D68742701DDB} = {CCCC1BA0-A89E-4435-8BCC-009696886DBB}
 	EndGlobalSection
 EndGlobal
