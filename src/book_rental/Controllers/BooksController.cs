@@ -18,9 +18,12 @@ namespace book_rental.Controllers
         }
 
         // GET: /Books/
-        public string Welcome(string name, int id = 1)
+        public IActionResult Welcome(string name, int numTimes = 1)
         {
-            return HtmlEncoder.Default.Encode("Hello " + name + ", times is: " + id);
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            return View();
         }
     }
 }
